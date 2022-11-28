@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modul 323 - Title</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="flex flex-col w-screen h-screen">
+    <header class="p-4">
+      <div class="max-w-2xl m-auto flex items-center gap-2 border-b-gray-200 border-b pb-4">
+        <img src="logo.png" alt="Logo" class="w-10" />
+        <span class="font-mono font-bold">HEADER - Digital4You</span>
+      </div>
+    </header>
+    <div class="grow">
+      <div class="flex m-auto max-w-2xl h-full">
+        <div class="bg-slate-20 w-1/4 h-full flex flex-col">
+          <span>SIDEBAR</span>
+          <span>-</span>
+          <ul class="text-blue-500">
+            <li><a class="hover:text-blue-300" href="#">Home</a></li>
+            <li><a class="hover:text-blue-300" href="#">About Us</a></li>
+            <li><a class="hover:text-blue-300" href="#">Products</a></li>
+          </ul>
+        </div>
+        <main class="w-3/4 h-full flex flex-col gap-4">
+          <section class="flex flex-col">
+            <span>TABLE</span>
+            <table class="grow">
+              <thead>
+                <tr class="text-left">
+                  <th>Firstname</th>
+                  <th>Lastname</th>
+                  <th>Age</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Jill</td>
+                  <td>Smith</td>
+                  <td>50</td>
+                </tr>
+                <tr>
+                  <td>Eve</td>
+                  <td>Jackson</td>
+                  <td>94</td>
+                </tr>
+                <tr>
+                  <td>John</td>
+                  <td>Doe</td>
+                  <td>80</td>
+                </tr>
+              </tbody>
+            </table>
+          </section>
+          <section class="flex flex-col gap-4">
+            <span>SECTION</span>
+            <article>
+              <h1 class="font-bold">ARTICLE - My Title 1</h1>
+              <p>Lorem ipsum dolor sit ahmed...</p>
+            </article>
+            <article>
+              <h1 class="font-bold">ARTICLE - My Title 2</h1>
+              <p>Lorem ipsum dolor sit ahmed...</p>
+            </article>
+            <article>
+              <h1 class="font-bold">ARTICLE - My Title 3</h1>
+              <p>Lorem ipsum dolor sit ahmed...</p>
+            </article>
+          </section>
+        </main>
+      </div>
+    </div>
+    <footer class="p-4 ">
+      <div class="max-w-2xl m-auto text-center border-t-gray-200 border-t pt-4">
+        FOOTER - Copyright Ⓒ - Digital4You GmbH ☕️</footer>
+      </div>
+    <script src="bundle.js"></script>
+  </body>
+</html>
